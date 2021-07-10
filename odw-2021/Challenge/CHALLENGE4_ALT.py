@@ -1,5 +1,4 @@
-import os
-import shutil
+# import sys
 import numpy as np
 from gwpy.timeseries import TimeSeries
 from pycbc.frame import read_frame
@@ -12,8 +11,6 @@ from pycbc.vetoes import power_chisq
 from pycbc.events.ranking import newsnr
 import matplotlib.pyplot as plt
 import pandas as pd
-
-my_path = os.path.dirname(os.path.abspath(__file__))
 
 class color:
     PURPLE = "\033[95m"
@@ -69,6 +66,7 @@ p_L1 = inverse_spectrum_truncation(p_L1, 2 * data_L1.sample_rate, low_frequency_
 psd_L1 = p_L1
 
 # The real stuff of detecting signals
+
 masses = []
 dth = 8  # BBH merger signal threshold
 BBH_dg = 750
@@ -79,15 +77,7 @@ BBH_dg = 750
 nbins = 26  # for the reduced chisq filtering of removing glitches
 dof = nbins * 2 - 2  # for the reduced chisq filtering of removing glitches
 
-for x in range(10, 51):
-    #os.mkdir("{}".format(x))
-    path = os.path.join(my_path, str(x))
-    if not os.path.exists(path):
-        os.makedirs(path)
-    else:
-        shutil.rmtree(path)           # Removes all the subdirectories!
-        os.makedirs(path)
-    print(path)
+for x in range(10, 13):
     print(Style.RESET_ALL)
     print(color.BOLD + "Individual masses of the BBHs -- ", x, "solar masses" + color.END)
     print(Style.RESET_ALL)
@@ -130,7 +120,7 @@ for x in range(10, 51):
     plt.title("All Possible Signal Candidates in H1")
     plt.ylabel("Signal-to-noise")
     plt.xlabel("Time (s)")
-    plt.savefig("{}/{}_H1_apsc.jpg".format(x,x))
+    plt.show()
 
     df_1 = pd.DataFrame({"snr1_x": snr1.sample_times, "snr1_y": abs(snr1).numpy()})
 
@@ -172,7 +162,7 @@ for x in range(10, 51):
     plt.title("All Possible Signal Candidates in L1")
     plt.ylabel("Signal-to-noise")
     plt.xlabel("Time (s)")
-    plt.savefig("{}/{}_L1_apsc.jpg".format(x,x))
+    plt.show()
 
     df_2 = pd.DataFrame({"snr2_x": snr2.sample_times, "snr2_y": abs(snr2).numpy()})
 
@@ -231,7 +221,7 @@ for x in range(10, 51):
         plt.title("Remaining Signal Candidate in H1 after reweighing data")
         plt.xlabel("Time (s)")
         plt.ylabel("Re-weighted Signal-to-noise")
-        plt.savefig("{}/{}_H1_rsc.jpg".format(x,x))
+        plt.show()
 
         ndf_1 = pd.DataFrame({"x1": snr1.sample_times, "y1": nsnr1})
         max_value1 = ndf_1["y1"].max()
@@ -245,7 +235,7 @@ for x in range(10, 51):
             x_max1l = []
             y_max1l = []
             while max_value1 >= dth:
-                # print("We found a confirmed signal candidate in H1 at", x_max1,"s with SNR", y_max1)
+
                 x_max1l.append(x_max1)
                 y_max1l.append(y_max1)
                 ndf_1 = ndf_1.drop(labels=range(max_index1 - BBH_dg, max_index1 + BBH_dg), axis=0)
@@ -276,7 +266,7 @@ for x in range(10, 51):
         plt.title("Remaining Signal Candidate in L1 after reweighing data")
         plt.xlabel("Time (s)")
         plt.ylabel("Re-weighted Signal-to-noise")
-        plt.savefig("{}/{}_L1_rsc.jpg".format(x,x))
+        plt.show()
 
         ndf_2 = pd.DataFrame({"x2": snr2.sample_times, "y2": nsnr2})
         max_value2 = ndf_2["y2"].max()
@@ -290,7 +280,6 @@ for x in range(10, 51):
             x_max2l = []
             y_max2l = []
             while max_value2 >= dth:
-                # print("We found a confirmed signal candidate in L1 at", x_max2,"s with SNR", y_max2)
 
                 x_max2l.append(x_max2)
                 y_max2l.append(y_max2)
@@ -313,8 +302,6 @@ for x in range(10, 51):
         dfo_gl2 = dfo_2
         dfn_2 = []
 
-    ############################################################
-    ############################################################
     if (snrp_H1 > dth) or (snrp_L1 > dth) or ((snrp_H1 > dth) and (snrp_L1 > dth)):
 
         if len(dfn_1) > 0 and len(dfn_2) == 0:
@@ -368,45 +355,52 @@ for x in range(10, 51):
                     print(color.LIGHTGREEN + "There is a signal candidate in L1 at", str(dfn_2["X2"][j]), "with SNR", str(dfn_2["Y2"][j]) + color.END)
 
             print(Style.RESET_ALL)
-            print(color.BOLD + "Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:" + color.END)
-            # print(Style.RESET_ALL)
+            print(color.BOLD +"Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:" + color.END)
+            #print(Style.RESET_ALL)
 
-            for i in range(0, dfn_1.index[-1] + 1):
-                for j in range(0, dfn_2.index[-1] + 1):
+            for i in range(0,dfn_1.index[-1]+1):
+                for j in range(0,dfn_2.index[-1]+1):
 
-                    if abs(dfn_2["X2"][j] - dfn_1["X1"][i]) > 3:
+                    if dfn_1['X1'][i] == dfn_2['X2'][j]:
                         print(Style.RESET_ALL)
-                        print(color.BOLD + "The signals at", str(dfn_1["X1"][i]), "for H1 and at", str(dfn_2["X2"][j]), "for L1 are too far apart with a lag of", str(abs(dfn_2["X2"][j] - dfn_1["X1"][i])), "s" + color.END)
-
-                    elif dfn_1["X1"][i] == dfn_2["X2"][j]:
-                        print(Style.RESET_ALL)
-                        print(color.BOLD + "As the timestamps are exactly same we conclude an injected signal mimicking a BBH merger at", str(dfn_1["X1"][i]), "\nwith the H1 SNR", str(dfn_1["Y1"][i]), "and the L1 SNR", str(dfn_2["Y2"][j]) + color.END)
+                        print(color.BOLD + "As the timestamps are exactly same we conclude an injected signal mimicking a BBH merger at", dfn_1['X1'][i],
+                              "\nwith the H1 SNR", dfn_1['Y1'][i], "and the L1 SNR", dfn_2['Y2'][j], "." + color.END)
                         print(Style.RESET_ALL)
 
-                    elif abs(dfn_2["X2"][j] - dfn_1["X1"][i]) < 0.008961194:
-                        # print(Style.RESET_ALL)
-                        print(color.BOLD + "The time lag", str(abs(dfn_2["X2"][j] - dfn_1["X1"][i])), "s between the signals at H1 & L1 is too short compared to GW travel time and hence \nan artefact of other noise sources or some artificial source" + color.END)
+                    elif dfn_2['X2'][j]-0.008961194 <= dfn_1['X1'][i] <= dfn_2['X2'][j]+0.008961194:
+
+                        print(Style.RESET_ALL)
+                        print(color.BOLD + "We found a BBH merger candidate \nin H1 at", dfn_1['X1'][i], "with SNR",dfn_1['Y1'][i],
+                              "and \nin L1 at",dfn_2['X2'][j], "with SNR",dfn_2['Y2'][j], "." + color.END)
                         print(Style.RESET_ALL)
 
-                    elif dfn_2["X2"][j] - 3 <= dfn_1["X1"][i] <= dfn_2["X2"][j] + 3:
-                        if abs(dfn_2["X2"][j] - dfn_1["X1"][i]) > 0.011328301:
-                            print(Style.RESET_ALL)
-                            print(color.BOLD + "While the time lag", str(abs(dfn_2["X2"][j] - dfn_1["X1"][i])), "s is short it is too large compared to GW travel time and hence an artefact of other noise sources" + color.END)
+                        if abs(dfn_2['X2'][j]-dfn_1['X1'][i]) < 0.008961194:
+                            #print(Style.RESET_ALL)
+                            print(color.BOLD + "The time lag",abs(dfn_2['X2'][j]-dfn_1['X1'][i]) ,"s between the signals at H1 & L1 is too short compared to GW travel time and hence \nan artefact of other noise sources or some artificial source" + color.END)
                             print(Style.RESET_ALL)
 
-                    elif (dfn_2["X2"][j] - 0.008961194 <= dfn_1["X1"][i] <= dfn_2["X2"][j] + 0.008961194):
-                        print(Style.RESET_ALL)
-                        print(color.CYAN + "We found a BBH merger candidate \nin H1 at", str(dfn_1["X1"][i]), "with SNR", str(dfn_1["Y1"][i]), "and \nin L1 at", str(dfn_2["X2"][j]), "with SNR", str(dfn_2["Y2"][j]) + color.END)
-                        print(Style.RESET_ALL)
+                        else:
+                            print(color.BLUEB + "yipee" + color.END)
 
-                    elif (abs(dfn_2["X2"][j] - dfn_1["X1"][i]) >= 0.008961194) and (abs(dfn_2["X2"][j] - dfn_1["X1"][i]) < 0.011328301):
-                        print(Style.RESET_ALL)
-                        print(color.BLUEB + "We found a signal candidate \nin H1 at", str(dfn_1["X1"][i]), "with SNR", str(dfn_1["Y1"][i]), "and \nin L1 at", str(dfn_2["X2"][j]), "with SNR", str(dfn_2["Y2"][j]) + color.END)
-                        print(color.BOLD + "The above signal is an extremely likely candidate for an authentic BBH merger given the choice of template" + color.END)
-                        print(color.BOLD + "The time lag", str(abs(dfn_2["X2"][j] - dfn_1["X1"][i])), "s between the signals at H1 & L1 is comparable to GW travel time" + color.END)
-                        # print(Style.RESET_ALL)
-                    else:
-                        print(color.BLUEB + "yipee" + color.END)
+                    elif dfn_2['X2'][j]-3 <= dfn_1['X1'][i] <= dfn_2['X2'][j]+3:
+
+                        if abs(dfn_2['X2'][j]-dfn_1['X1'][i]) > 0.011328301:
+                            print(Style.RESET_ALL)
+                            print(color.BOLD + "While the time lag",abs(dfn_2['X2'][j]-dfn_1['X1'][i]) ,"s is short it is too large compared to GW travel time and hence an artefact of other noise sources" + color.END)
+                            print(Style.RESET_ALL)
+                        elif ((abs(dfn_2['X2'][j]-dfn_1['X1'][i]) >=0.008961194) and (abs(dfn_2['X2'][j]-dfn_1['X1'][i]) < 0.011328301)):
+                            print(Style.RESET_ALL)
+                            print(color.BOLD + "We found a signal candidate \nin H1 at", dfn_1['X1'][i], "with SNR",dfn_1['Y1'][i],
+                                  "and \nin L1 at",dfn_2['X2'][j], "with SNR",dfn_2['Y2'][j], "." + color.END)
+                            print(color.BOLD + "The above signal is an extremely likely candidate for an authentic BBH merger given the choice of template" + color.END)
+                            print(color.BOLD + "The time lag",abs(dfn_2['X2'][j]-dfn_1['X1'][i]) ,"s between the signals at H1 & L1 is comparable to GW travel time" + color.END)
+                            print(Style.RESET_ALL)
+                        else:
+                            print(color.BLUEB + "yipee" + color.END)
+
+                    elif abs(dfn_2['X2'][j]-dfn_1['X1'][i]) > 3:
+
+                        print(color.BOLD + "The signals at",dfn_1["X1"][i],"for H1 and at",dfn_2["X2"][j],"for L1 are too far apart with a lag of",abs(dfn_2['X2'][j]-dfn_1['X1'][i])," s" + color.END)
 
     else:
         # print("Glitches and remaining signals")
@@ -420,8 +414,4 @@ for x in range(10, 51):
         for b in range(0, dfo_2.index[-1] + 1):
             print(color.LIGHTGREEN + "The initial signal candidate at L1 reported at", str(dfo_2["x2"][b]), "was a glitch" + color.END)
 
-    ############################################################
-    ############################################################
-
     masses.append(x)
-# sys.stdout = stdoutOrigin
