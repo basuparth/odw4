@@ -1,0 +1,1213 @@
+The gwpy cell starts
+The gwpy cell stops
+Duration_H1: 4096.0s delta_t_H1: 0.000244140625s sampling rate_H1: 4096.0Hz Start_H1: 0 End_H1: 4096
+Duration_L1: 4096.0s delta_t_L1: 0.000244140625s sampling rate_L1: 4096.0Hz Start_L1: 0 End_L1: 4096
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/10
+Individual masses of the BBHs -- 10 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 10 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 2483.96875 s with SNR 28.636095483196684
+We found a possible signal candidate in H1 at 1204.71435546875 s with SNR 11.702049219693073
+We found a possible signal candidate in H1 at 1638.17919921875 s with SNR 9.390212390406933
+Listing all the possible signal candidates(for BH mass= 10 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 2483.96875 s with SNR 33.34123375597831
+We found a possible signal candidate in L1 at 1204.8291015625 s with SNR 10.042547054465151
+We found a possible signal candidate in L1 at 1638.2607421875 s with SNR 8.684190520091198
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 1204.71435546875 was a glitch
+The initial signal candidate at H1 reported at 1638.17919921875 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2483.96875 with SNR 26.838946924040826
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 1204.8291015625 was a glitch
+The initial signal candidate at L1 reported at 1638.2607421875 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 2483.96875 with SNR 31.2387986534657
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+As the timestamps are exactly same we conclude an injected signal mimicking a BBH merger at 2483.96875
+with the H1 SNR 26.838946924040826 and the L1 SNR 31.2387986534657
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/11
+Individual masses of the BBHs -- 11 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 11 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.71435546875 s with SNR 12.01061227570749
+We found a possible signal candidate in H1 at 2483.966796875 s with SNR 11.23127351930789
+We found a possible signal candidate in H1 at 1638.17529296875 s with SNR 9.89929180924119
+Listing all the possible signal candidates(for BH mass= 11 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 2483.95849609375 s with SNR 11.14999648757189
+We found a possible signal candidate in L1 at 1204.7568359375 s with SNR 10.8934832065357
+We found a possible signal candidate in L1 at 1638.2138671875 s with SNR 9.920050826736528
+There were no signal candidates at Hanford for template using m1=m2= 11 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 11 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.71435546875 was a glitch
+The initial signal candidate at H1 reported at 1638.17529296875 was a glitch
+The initial signal candidate at H1 reported at 2483.966796875 was a glitch
+The initial signal candidate at L1 reported at 1204.7568359375 was a glitch
+The initial signal candidate at L1 reported at 1638.2138671875 was a glitch
+The initial signal candidate at L1 reported at 2483.95849609375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/12
+Individual masses of the BBHs -- 12 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 12 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.712890625 s with SNR 13.613346529705009
+We found a possible signal candidate in H1 at 1638.16015625 s with SNR 12.002251275835592
+We found a possible signal candidate in H1 at 2483.96240234375 s with SNR 9.525762768334562
+Listing all the possible signal candidates(for BH mass= 12 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.71875 s with SNR 12.425712403538972
+We found a possible signal candidate in L1 at 1638.19775390625 s with SNR 11.16663586956888
+We found a possible signal candidate in L1 at 2483.94482421875 s with SNR 8.820510679105457
+There were no signal candidates at Hanford for template using m1=m2= 12 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 12 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.712890625 was a glitch
+The initial signal candidate at H1 reported at 1638.16015625 was a glitch
+The initial signal candidate at H1 reported at 2483.96240234375 was a glitch
+The initial signal candidate at L1 reported at 1204.71875 was a glitch
+The initial signal candidate at L1 reported at 1638.19775390625 was a glitch
+The initial signal candidate at L1 reported at 2483.94482421875 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/13
+Individual masses of the BBHs -- 13 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 13 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.71337890625 s with SNR 16.065475670097833
+We found a possible signal candidate in H1 at 1638.16259765625 s with SNR 14.08915791310901
+We found a possible signal candidate in H1 at 2483.9619140625 s with SNR 8.396240820990679
+Listing all the possible signal candidates(for BH mass= 13 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.71337890625 s with SNR 13.575676122415414
+We found a possible signal candidate in L1 at 1638.171875 s with SNR 12.694326457410847
+We found a possible signal candidate in L1 at 196.1171875 s with SNR 8.173571658582592
+There were no signal candidates at Hanford for template using m1=m2= 13 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 13 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.71337890625 was a glitch
+The initial signal candidate at H1 reported at 1638.16259765625 was a glitch
+The initial signal candidate at H1 reported at 2483.9619140625 was a glitch
+The initial signal candidate at L1 reported at 196.1171875 was a glitch
+The initial signal candidate at L1 reported at 1204.71337890625 was a glitch
+The initial signal candidate at L1 reported at 1638.171875 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/14
+Individual masses of the BBHs -- 14 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 14 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1638.15966796875 s with SNR 16.53283963627395
+We found a possible signal candidate in H1 at 1204.712890625 s with SNR 15.374517466622443
+We found a possible signal candidate in H1 at 2483.95751953125 s with SNR 8.10672414728526
+Listing all the possible signal candidates(for BH mass= 14 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1638.16845703125 s with SNR 16.330090454438707
+We found a possible signal candidate in L1 at 1204.71337890625 s with SNR 14.648026214275797
+There were no signal candidates at Hanford for template using m1=m2= 14 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 14 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.712890625 was a glitch
+The initial signal candidate at H1 reported at 1638.15966796875 was a glitch
+The initial signal candidate at H1 reported at 2483.95751953125 was a glitch
+The initial signal candidate at L1 reported at 1204.71337890625 was a glitch
+The initial signal candidate at L1 reported at 1638.16845703125 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/15
+Individual masses of the BBHs -- 15 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 15 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1638.1591796875 s with SNR 18.245106679372313
+We found a possible signal candidate in H1 at 1204.71240234375 s with SNR 18.094226337898267
+Listing all the possible signal candidates(for BH mass= 15 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1638.1591796875 s with SNR 17.873869530651252
+We found a possible signal candidate in L1 at 1204.71240234375 s with SNR 16.262923507986788
+We found a possible signal candidate in L1 at 196.0849609375 s with SNR 8.379576138774937
+There were no signal candidates at Hanford for template using m1=m2= 15 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 15 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.71240234375 was a glitch
+The initial signal candidate at H1 reported at 1638.1591796875 was a glitch
+The initial signal candidate at L1 reported at 196.0849609375 was a glitch
+The initial signal candidate at L1 reported at 1204.71240234375 was a glitch
+The initial signal candidate at L1 reported at 1638.1591796875 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/16
+Individual masses of the BBHs -- 16 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 16 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1638.1591796875 s with SNR 25.191636821027583
+We found a possible signal candidate in H1 at 1204.71240234375 s with SNR 19.082615416284078
+We found a possible signal candidate in H1 at 2483.96044921875 s with SNR 8.084097090068788
+Listing all the possible signal candidates(for BH mass= 16 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1638.1591796875 s with SNR 21.93663917465466
+We found a possible signal candidate in L1 at 1204.712890625 s with SNR 17.96834973668229
+We found a possible signal candidate in L1 at 196.09765625 s with SNR 8.810552758365768
+There were no signal candidates at Hanford for template using m1=m2= 16 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 16 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.71240234375 was a glitch
+The initial signal candidate at H1 reported at 1638.1591796875 was a glitch
+The initial signal candidate at H1 reported at 2483.96044921875 was a glitch
+The initial signal candidate at L1 reported at 196.09765625 was a glitch
+The initial signal candidate at L1 reported at 1204.712890625 was a glitch
+The initial signal candidate at L1 reported at 1638.1591796875 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/17
+Individual masses of the BBHs -- 17 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 17 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1638.158203125 s with SNR 38.358099776056186
+We found a possible signal candidate in H1 at 1204.7119140625 s with SNR 22.474765707127876
+We found a possible signal candidate in H1 at 3319.25927734375 s with SNR 8.130340680066844
+Listing all the possible signal candidates(for BH mass= 17 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1638.158203125 s with SNR 42.89292367374951
+We found a possible signal candidate in L1 at 1204.71240234375 s with SNR 20.56990602157551
+We found a possible signal candidate in L1 at 196.087890625 s with SNR 9.223954399986928
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 1204.7119140625 was a glitch
+The initial signal candidate at H1 reported at 3319.25927734375 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 1638.158203125 with SNR 33.60702276447011
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.087890625 was a glitch
+The initial signal candidate at L1 reported at 1204.71240234375 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 1638.158203125 with SNR 39.113634791312116
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+As the timestamps are exactly same we conclude an injected signal mimicking a BBH merger at 1638.158203125
+with the H1 SNR 33.60702276447011 and the L1 SNR 39.113634791312116
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/18
+Individual masses of the BBHs -- 18 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 18 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1638.1572265625 s with SNR 26.50126939993508
+We found a possible signal candidate in H1 at 1204.71142578125 s with SNR 22.168343990652797
+Listing all the possible signal candidates(for BH mass= 18 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1638.1572265625 s with SNR 27.530801282995682
+We found a possible signal candidate in L1 at 1204.7119140625 s with SNR 24.00391328508576
+We found a possible signal candidate in L1 at 196.08642578125 s with SNR 9.382715825461414
+There were no signal candidates at Hanford for template using m1=m2= 18 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 18 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.71142578125 was a glitch
+The initial signal candidate at H1 reported at 1638.1572265625 was a glitch
+The initial signal candidate at L1 reported at 196.08642578125 was a glitch
+The initial signal candidate at L1 reported at 1204.7119140625 was a glitch
+The initial signal candidate at L1 reported at 1638.1572265625 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/19
+Individual masses of the BBHs -- 19 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 19 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7119140625 s with SNR 25.071228280250256
+We found a possible signal candidate in H1 at 1638.15673828125 s with SNR 21.950538125189503
+Listing all the possible signal candidates(for BH mass= 19 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7119140625 s with SNR 26.71947245195038
+We found a possible signal candidate in L1 at 1638.15673828125 s with SNR 20.324085675085612
+We found a possible signal candidate in L1 at 196.0927734375 s with SNR 9.568913828986453
+There were no signal candidates at Hanford for template using m1=m2= 19 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 19 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.7119140625 was a glitch
+The initial signal candidate at H1 reported at 1638.15673828125 was a glitch
+The initial signal candidate at L1 reported at 196.0927734375 was a glitch
+The initial signal candidate at L1 reported at 1204.7119140625 was a glitch
+The initial signal candidate at L1 reported at 1638.15673828125 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/20
+Individual masses of the BBHs -- 20 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 20 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.71142578125 s with SNR 31.011892345275474
+We found a possible signal candidate in H1 at 1638.15673828125 s with SNR 20.768806015042607
+Listing all the possible signal candidates(for BH mass= 20 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.71142578125 s with SNR 32.58021621937493
+We found a possible signal candidate in L1 at 1638.15673828125 s with SNR 18.761407881741366
+We found a possible signal candidate in L1 at 196.09619140625 s with SNR 10.14842408943735
+There were no signal candidates at Hanford for template using m1=m2= 20 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 20 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 1204.71142578125 was a glitch
+The initial signal candidate at H1 reported at 1638.15673828125 was a glitch
+The initial signal candidate at L1 reported at 196.09619140625 was a glitch
+The initial signal candidate at L1 reported at 1204.71142578125 was a glitch
+The initial signal candidate at L1 reported at 1638.15673828125 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/21
+Individual masses of the BBHs -- 21 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 21 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7109375 s with SNR 36.61026525848671
+We found a possible signal candidate in H1 at 1638.15673828125 s with SNR 19.586110314474514
+Listing all the possible signal candidates(for BH mass= 21 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.71142578125 s with SNR 39.289478757384266
+We found a possible signal candidate in L1 at 1638.15625 s with SNR 18.929133479199262
+We found a possible signal candidate in L1 at 196.09228515625 s with SNR 10.801872034554984
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 1638.15673828125 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 1204.7109375 with SNR 11.1286239932232
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.09228515625 was a glitch
+The initial signal candidate at L1 reported at 1638.15625 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 1204.71142578125 with SNR 8.63235668375637
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/22
+Individual masses of the BBHs -- 22 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 22 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.71044921875 s with SNR 44.585158077118436
+We found a possible signal candidate in H1 at 1638.15576171875 s with SNR 19.45787474426104
+We found a possible signal candidate in H1 at 3319.25732421875 s with SNR 8.403175457893022
+Listing all the possible signal candidates(for BH mass= 22 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.71044921875 s with SNR 53.150217861206656
+We found a possible signal candidate in L1 at 1638.1552734375 s with SNR 17.99822531220326
+We found a possible signal candidate in L1 at 196.091796875 s with SNR 10.89138064864064
+We found a possible signal candidate in L1 at 3319.2568359375 s with SNR 8.219733319345803
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 1638.15576171875 was a glitch
+The initial signal candidate at H1 reported at 3319.25732421875 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 1204.71044921875 with SNR 38.38671861918066
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.091796875 was a glitch
+The initial signal candidate at L1 reported at 1638.1552734375 was a glitch
+The initial signal candidate at L1 reported at 3319.2568359375 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 1204.71044921875 with SNR 50.73312219067213
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+As the timestamps are exactly same we conclude an injected signal mimicking a BBH merger at 1204.71044921875
+with the H1 SNR 38.38671861918066 and the L1 SNR 50.73312219067213
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/23
+Individual masses of the BBHs -- 23 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 23 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70947265625 s with SNR 39.43059874781386
+We found a possible signal candidate in H1 at 1638.15576171875 s with SNR 18.735690117769764
+We found a possible signal candidate in H1 at 3319.2568359375 s with SNR 8.004407681110965
+Listing all the possible signal candidates(for BH mass= 23 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70947265625 s with SNR 45.09835877285809
+We found a possible signal candidate in L1 at 1638.1494140625 s with SNR 15.979264906953706
+We found a possible signal candidate in L1 at 196.083984375 s with SNR 11.289913302777249
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 1638.15576171875 was a glitch
+The initial signal candidate at H1 reported at 3319.2568359375 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 1204.70947265625 with SNR 14.515012162749295
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.083984375 was a glitch
+The initial signal candidate at L1 reported at 1638.1494140625 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 1204.70947265625 with SNR 12.51080741566773
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+As the timestamps are exactly same we conclude an injected signal mimicking a BBH merger at 1204.70947265625
+with the H1 SNR 14.515012162749295 and the L1 SNR 12.51080741566773
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/24
+Individual masses of the BBHs -- 24 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 24 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.708984375 s with SNR 34.869243444719515
+We found a possible signal candidate in H1 at 1638.15576171875 s with SNR 19.127830333440215
+We found a possible signal candidate in H1 at 987.6953125 s with SNR 8.056607745223305
+Listing all the possible signal candidates(for BH mass= 24 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.708984375 s with SNR 37.26865557433521
+We found a possible signal candidate in L1 at 1638.146484375 s with SNR 15.372437512301518
+We found a possible signal candidate in L1 at 196.0908203125 s with SNR 12.356382833596696
+There were no signal candidates at Livingston for template using m1=m2= 24 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 1204.708984375 has a SNR of 9.985394499367446
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6953125 was a glitch
+The initial signal candidate at H1 reported at 1638.15576171875 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.0908203125 was a glitch
+The initial signal candidate at L1 reported at 1204.708984375 was a glitch
+The initial signal candidate at L1 reported at 1638.146484375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/25
+Individual masses of the BBHs -- 25 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 25 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70849609375 s with SNR 32.22982889941159
+We found a possible signal candidate in H1 at 1638.1552734375 s with SNR 19.61186851768695
+We found a possible signal candidate in H1 at 3319.25732421875 s with SNR 9.314453010423252
+We found a possible signal candidate in H1 at 987.6943359375 s with SNR 8.383971273500212
+We found a possible signal candidate in H1 at 2995.34521484375 s with SNR 8.020334505485476
+Listing all the possible signal candidates(for BH mass= 25 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70849609375 s with SNR 35.29315012896064
+We found a possible signal candidate in L1 at 1638.14111328125 s with SNR 15.156220643156699
+We found a possible signal candidate in L1 at 196.08544921875 s with SNR 12.977767072058317
+There were no signal candidates at Livingston for template using m1=m2= 25 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 1204.70849609375 has a SNR of 8.564627333346507
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6943359375 was a glitch
+The initial signal candidate at H1 reported at 1638.1552734375 was a glitch
+The initial signal candidate at H1 reported at 2995.34521484375 was a glitch
+The initial signal candidate at H1 reported at 3319.25732421875 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08544921875 was a glitch
+The initial signal candidate at L1 reported at 1204.70849609375 was a glitch
+The initial signal candidate at L1 reported at 1638.14111328125 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/26
+Individual masses of the BBHs -- 26 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 26 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70849609375 s with SNR 30.450913716505276
+We found a possible signal candidate in H1 at 1638.15478515625 s with SNR 19.27010612795317
+We found a possible signal candidate in H1 at 3319.2568359375 s with SNR 9.881670096439457
+We found a possible signal candidate in H1 at 2995.3447265625 s with SNR 8.500813142247841
+We found a possible signal candidate in H1 at 987.68505859375 s with SNR 8.222478422693047
+Listing all the possible signal candidates(for BH mass= 26 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7080078125 s with SNR 30.53972768477237
+We found a possible signal candidate in L1 at 1638.140625 s with SNR 14.830161276372557
+We found a possible signal candidate in L1 at 196.083984375 s with SNR 13.568688212729437
+There were no signal candidates at Hanford for template using m1=m2= 26 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 26 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 987.68505859375 was a glitch
+The initial signal candidate at H1 reported at 1204.70849609375 was a glitch
+The initial signal candidate at H1 reported at 1638.15478515625 was a glitch
+The initial signal candidate at H1 reported at 2995.3447265625 was a glitch
+The initial signal candidate at H1 reported at 3319.2568359375 was a glitch
+The initial signal candidate at L1 reported at 196.083984375 was a glitch
+The initial signal candidate at L1 reported at 1204.7080078125 was a glitch
+The initial signal candidate at L1 reported at 1638.140625 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/27
+Individual masses of the BBHs -- 27 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 27 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7080078125 s with SNR 28.76182937128031
+We found a possible signal candidate in H1 at 1638.15478515625 s with SNR 18.87243074231471
+We found a possible signal candidate in H1 at 3319.25634765625 s with SNR 9.580254363764128
+We found a possible signal candidate in H1 at 2995.3447265625 s with SNR 9.208872734586818
+We found a possible signal candidate in H1 at 987.69384765625 s with SNR 8.27642207200558
+Listing all the possible signal candidates(for BH mass= 27 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7080078125 s with SNR 29.018185147525916
+We found a possible signal candidate in L1 at 196.0830078125 s with SNR 14.295989843066353
+We found a possible signal candidate in L1 at 1638.140625 s with SNR 14.241308040023553
+We found a possible signal candidate in L1 at 3319.2568359375 s with SNR 8.38358588240037
+There were no signal candidates at Hanford for template using m1=m2= 27 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 27 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 987.69384765625 was a glitch
+The initial signal candidate at H1 reported at 1204.7080078125 was a glitch
+The initial signal candidate at H1 reported at 1638.15478515625 was a glitch
+The initial signal candidate at H1 reported at 2995.3447265625 was a glitch
+The initial signal candidate at H1 reported at 3319.25634765625 was a glitch
+The initial signal candidate at L1 reported at 196.0830078125 was a glitch
+The initial signal candidate at L1 reported at 1204.7080078125 was a glitch
+The initial signal candidate at L1 reported at 1638.140625 was a glitch
+The initial signal candidate at L1 reported at 3319.2568359375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/28
+Individual masses of the BBHs -- 28 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 28 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7080078125 s with SNR 27.97474129420954
+We found a possible signal candidate in H1 at 1638.154296875 s with SNR 18.925994650071978
+We found a possible signal candidate in H1 at 3319.25634765625 s with SNR 9.81015758081659
+We found a possible signal candidate in H1 at 2995.34423828125 s with SNR 9.541458188848791
+We found a possible signal candidate in H1 at 987.693359375 s with SNR 8.264764664501238
+Listing all the possible signal candidates(for BH mass= 28 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7080078125 s with SNR 28.813074221161187
+We found a possible signal candidate in L1 at 196.08203125 s with SNR 13.835661313908457
+We found a possible signal candidate in L1 at 1638.14013671875 s with SNR 13.80245287600678
+We found a possible signal candidate in L1 at 3319.2568359375 s with SNR 10.21917065588602
+There were no signal candidates at Hanford for template using m1=m2= 28 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 28 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 987.693359375 was a glitch
+The initial signal candidate at H1 reported at 1204.7080078125 was a glitch
+The initial signal candidate at H1 reported at 1638.154296875 was a glitch
+The initial signal candidate at H1 reported at 2995.34423828125 was a glitch
+The initial signal candidate at H1 reported at 3319.25634765625 was a glitch
+The initial signal candidate at L1 reported at 196.08203125 was a glitch
+The initial signal candidate at L1 reported at 1204.7080078125 was a glitch
+The initial signal candidate at L1 reported at 1638.14013671875 was a glitch
+The initial signal candidate at L1 reported at 3319.2568359375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/29
+Individual masses of the BBHs -- 29 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 29 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70751953125 s with SNR 27.628766997477474
+We found a possible signal candidate in H1 at 1638.154296875 s with SNR 18.715214226466635
+We found a possible signal candidate in H1 at 3319.255859375 s with SNR 10.213916347076346
+We found a possible signal candidate in H1 at 2995.34375 s with SNR 9.91734367766273
+We found a possible signal candidate in H1 at 987.68408203125 s with SNR 8.333071849614011
+Listing all the possible signal candidates(for BH mass= 29 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70751953125 s with SNR 27.879394257782096
+We found a possible signal candidate in L1 at 1638.14794921875 s with SNR 13.30253057059366
+We found a possible signal candidate in L1 at 196.08251953125 s with SNR 13.198249822451867
+We found a possible signal candidate in L1 at 3319.255859375 s with SNR 11.266704355760771
+There were no signal candidates at Livingston for template using m1=m2= 29 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 2995.34375 has a SNR of 8.42522566600899
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.68408203125 was a glitch
+The initial signal candidate at H1 reported at 1204.70751953125 was a glitch
+The initial signal candidate at H1 reported at 1638.154296875 was a glitch
+The initial signal candidate at H1 reported at 3319.255859375 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08251953125 was a glitch
+The initial signal candidate at L1 reported at 1204.70751953125 was a glitch
+The initial signal candidate at L1 reported at 1638.14794921875 was a glitch
+The initial signal candidate at L1 reported at 3319.255859375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/30
+Individual masses of the BBHs -- 30 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 30 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70751953125 s with SNR 27.442934934302844
+We found a possible signal candidate in H1 at 1638.15380859375 s with SNR 18.588607709710335
+We found a possible signal candidate in H1 at 2995.34375 s with SNR 10.918654402895234
+We found a possible signal candidate in H1 at 3319.255859375 s with SNR 10.606180434889552
+We found a possible signal candidate in H1 at 987.6923828125 s with SNR 8.310094136277215
+Listing all the possible signal candidates(for BH mass= 30 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70751953125 s with SNR 27.43385294089922
+We found a possible signal candidate in L1 at 196.0830078125 s with SNR 14.092937634234273
+We found a possible signal candidate in L1 at 1638.14697265625 s with SNR 13.450131798325454
+We found a possible signal candidate in L1 at 3319.25537109375 s with SNR 11.613526810313068
+We found a possible signal candidate in L1 at 2995.3427734375 s with SNR 8.041495945183016
+There were no signal candidates at Livingston for template using m1=m2= 30 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 2995.34375 has a SNR of 9.778238081523295
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6923828125 was a glitch
+The initial signal candidate at H1 reported at 1204.70751953125 was a glitch
+The initial signal candidate at H1 reported at 1638.15380859375 was a glitch
+The initial signal candidate at H1 reported at 3319.255859375 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.0830078125 was a glitch
+The initial signal candidate at L1 reported at 1204.70751953125 was a glitch
+The initial signal candidate at L1 reported at 1638.14697265625 was a glitch
+The initial signal candidate at L1 reported at 2995.3427734375 was a glitch
+The initial signal candidate at L1 reported at 3319.25537109375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/31
+Individual masses of the BBHs -- 31 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 31 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70751953125 s with SNR 27.216902536411496
+We found a possible signal candidate in H1 at 1638.15380859375 s with SNR 18.458514421740595
+We found a possible signal candidate in H1 at 2995.3427734375 s with SNR 11.318075593336262
+We found a possible signal candidate in H1 at 3319.255859375 s with SNR 11.227768726611947
+We found a possible signal candidate in H1 at 987.69189453125 s with SNR 8.737527947678478
+Listing all the possible signal candidates(for BH mass= 31 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70751953125 s with SNR 28.20580807368582
+We found a possible signal candidate in L1 at 196.08251953125 s with SNR 14.770698258137106
+We found a possible signal candidate in L1 at 1638.1396484375 s with SNR 13.70221695676024
+We found a possible signal candidate in L1 at 3319.25537109375 s with SNR 11.910464197181328
+We found a possible signal candidate in L1 at 2995.34228515625 s with SNR 8.869356663270983
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.69189453125 was a glitch
+The initial signal candidate at H1 reported at 1204.70751953125 was a glitch
+The initial signal candidate at H1 reported at 1638.15380859375 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.3427734375 with SNR 10.165440937073743
+There is a signal candidate in H1 at 3319.255859375 with SNR 8.336510086946323
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08251953125 was a glitch
+The initial signal candidate at L1 reported at 1204.70751953125 was a glitch
+The initial signal candidate at L1 reported at 1638.1396484375 was a glitch
+The initial signal candidate at L1 reported at 3319.25537109375 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 2995.34228515625 with SNR 8.021820771941364
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+The signals at 3319.255859375 for H1 and at 2995.34228515625 for L1 are too far apart with a lag of 323.91357421875 s
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/32
+Individual masses of the BBHs -- 32 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 32 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70703125 s with SNR 27.19553013993553
+We found a possible signal candidate in H1 at 1638.1533203125 s with SNR 18.498318553017434
+We found a possible signal candidate in H1 at 3319.25537109375 s with SNR 11.906776386535464
+We found a possible signal candidate in H1 at 2995.34228515625 s with SNR 11.27095979719304
+We found a possible signal candidate in H1 at 987.69189453125 s with SNR 8.80294041781534
+Listing all the possible signal candidates(for BH mass= 32 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70703125 s with SNR 29.0111292026185
+We found a possible signal candidate in L1 at 196.08203125 s with SNR 14.990244252737645
+We found a possible signal candidate in L1 at 1638.13916015625 s with SNR 14.089533263229145
+We found a possible signal candidate in L1 at 3319.2548828125 s with SNR 12.698936395365381
+We found a possible signal candidate in L1 at 2995.341796875 s with SNR 9.146395705618792
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.69189453125 was a glitch
+The initial signal candidate at H1 reported at 1204.70703125 was a glitch
+The initial signal candidate at H1 reported at 1638.1533203125 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.34228515625 with SNR 10.661334890918699
+There is a signal candidate in H1 at 3319.25537109375 with SNR 9.309886758802586
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08203125 was a glitch
+The initial signal candidate at L1 reported at 1204.70703125 was a glitch
+The initial signal candidate at L1 reported at 1638.13916015625 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 2995.341796875 with SNR 8.396504192680261
+There is a signal candidate in L1 at 3319.2548828125 with SNR 8.83997374509556
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+The signals at 2995.34228515625 for H1 and at 3319.2548828125 for L1 are too far apart with a lag of 323.91259765625 s
+The signals at 3319.25537109375 for H1 and at 2995.341796875 for L1 are too far apart with a lag of 323.91357421875 s
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/33
+Individual masses of the BBHs -- 33 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 33 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70703125 s with SNR 26.847862913890346
+We found a possible signal candidate in H1 at 1638.1533203125 s with SNR 18.754932967531705
+We found a possible signal candidate in H1 at 3319.2548828125 s with SNR 12.66483154838466
+We found a possible signal candidate in H1 at 2995.341796875 s with SNR 10.83633765043472
+We found a possible signal candidate in H1 at 987.69140625 s with SNR 8.831435249083766
+Listing all the possible signal candidates(for BH mass= 33 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70654296875 s with SNR 28.996229535907517
+We found a possible signal candidate in L1 at 196.08203125 s with SNR 15.109205636603647
+We found a possible signal candidate in L1 at 1638.13916015625 s with SNR 14.327472722535655
+We found a possible signal candidate in L1 at 3319.25439453125 s with SNR 13.705029159105278
+We found a possible signal candidate in L1 at 2995.34130859375 s with SNR 8.91259381181935
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.69140625 was a glitch
+The initial signal candidate at H1 reported at 1204.70703125 was a glitch
+The initial signal candidate at H1 reported at 1638.1533203125 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.341796875 with SNR 9.487225283834915
+There is a signal candidate in H1 at 3319.2548828125 with SNR 11.261028901813203
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08203125 was a glitch
+The initial signal candidate at L1 reported at 1204.70654296875 was a glitch
+The initial signal candidate at L1 reported at 1638.13916015625 was a glitch
+The initial signal candidate at L1 reported at 2995.34130859375 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.25439453125 with SNR 10.55258407088048
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The signals at 2995.341796875 for H1 and at 3319.25439453125 for L1 are too far apart with a lag of 323.91259765625 s
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/34
+Individual masses of the BBHs -- 34 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 34 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70654296875 s with SNR 26.84522025396613
+We found a possible signal candidate in H1 at 1638.15283203125 s with SNR 18.875846572486388
+We found a possible signal candidate in H1 at 3319.25439453125 s with SNR 13.312372935785266
+We found a possible signal candidate in H1 at 2995.341796875 s with SNR 10.307461383593656
+We found a possible signal candidate in H1 at 987.69091796875 s with SNR 8.90780206768311
+Listing all the possible signal candidates(for BH mass= 34 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70654296875 s with SNR 28.53987389273704
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 15.20745983547546
+We found a possible signal candidate in L1 at 3319.25390625 s with SNR 14.514216030878188
+We found a possible signal candidate in L1 at 1638.138671875 s with SNR 14.392244985636125
+We found a possible signal candidate in L1 at 2995.3408203125 s with SNR 8.438837487321338
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.69091796875 was a glitch
+The initial signal candidate at H1 reported at 1204.70654296875 was a glitch
+The initial signal candidate at H1 reported at 1638.15283203125 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.341796875 with SNR 8.938794837775005
+There is a signal candidate in H1 at 3319.25439453125 with SNR 12.775660030347904
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.70654296875 was a glitch
+The initial signal candidate at L1 reported at 1638.138671875 was a glitch
+The initial signal candidate at L1 reported at 2995.3408203125 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.25390625 with SNR 12.38049778812837
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The signals at 2995.341796875 for H1 and at 3319.25390625 for L1 are too far apart with a lag of 323.912109375 s
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/35
+Individual masses of the BBHs -- 35 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 35 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70654296875 s with SNR 26.70542467474028
+We found a possible signal candidate in H1 at 1638.15234375 s with SNR 18.706094698488357
+We found a possible signal candidate in H1 at 3319.25390625 s with SNR 13.635074837668618
+We found a possible signal candidate in H1 at 2995.34130859375 s with SNR 10.028621027806217
+We found a possible signal candidate in H1 at 987.6904296875 s with SNR 8.942765370466564
+We found a possible signal candidate in H1 at 2483.95849609375 s with SNR 8.130509337483083
+Listing all the possible signal candidates(for BH mass= 35 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7060546875 s with SNR 28.00593260373973
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 15.27893526950926
+We found a possible signal candidate in L1 at 3319.25341796875 s with SNR 14.883132870997153
+We found a possible signal candidate in L1 at 1638.1533203125 s with SNR 14.41763898634262
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6904296875 was a glitch
+The initial signal candidate at H1 reported at 1204.70654296875 was a glitch
+The initial signal candidate at H1 reported at 1638.15234375 was a glitch
+The initial signal candidate at H1 reported at 2483.95849609375 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.34130859375 with SNR 8.238039475736715
+There is a signal candidate in H1 at 3319.25390625 with SNR 13.635074837668618
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.7060546875 was a glitch
+The initial signal candidate at L1 reported at 1638.1533203125 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.25341796875 with SNR 14.021469510041415
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The signals at 2995.34130859375 for H1 and at 3319.25341796875 for L1 are too far apart with a lag of 323.912109375 s
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/36
+Individual masses of the BBHs -- 36 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 36 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7060546875 s with SNR 26.713245654439888
+We found a possible signal candidate in H1 at 1638.15234375 s with SNR 18.474651642414646
+We found a possible signal candidate in H1 at 3319.25341796875 s with SNR 13.642817390094041
+We found a possible signal candidate in H1 at 2995.3408203125 s with SNR 9.874911913961201
+We found a possible signal candidate in H1 at 987.66552734375 s with SNR 9.003164572268
+We found a possible signal candidate in H1 at 2483.9580078125 s with SNR 8.16813243222241
+Listing all the possible signal candidates(for BH mass= 36 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7060546875 s with SNR 27.94434949869289
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 15.38649365036262
+We found a possible signal candidate in L1 at 3319.2529296875 s with SNR 14.78423621916713
+We found a possible signal candidate in L1 at 1638.1533203125 s with SNR 14.765925623851754
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.66552734375 was a glitch
+The initial signal candidate at H1 reported at 1204.7060546875 was a glitch
+The initial signal candidate at H1 reported at 1638.15234375 was a glitch
+The initial signal candidate at H1 reported at 2483.9580078125 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.3408203125 with SNR 8.381976803001308
+There is a signal candidate in H1 at 3319.25341796875 with SNR 13.366402129781727
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.7060546875 was a glitch
+The initial signal candidate at L1 reported at 1638.1533203125 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.2529296875 with SNR 13.133162226262998
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The signals at 2995.3408203125 for H1 and at 3319.2529296875 for L1 are too far apart with a lag of 323.912109375 s
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/37
+Individual masses of the BBHs -- 37 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 37 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7060546875 s with SNR 26.70966016901397
+We found a possible signal candidate in H1 at 1638.15185546875 s with SNR 18.354318778924064
+We found a possible signal candidate in H1 at 3319.25341796875 s with SNR 13.418296620941291
+We found a possible signal candidate in H1 at 2995.3408203125 s with SNR 9.765198755128134
+We found a possible signal candidate in H1 at 987.68212890625 s with SNR 9.183383437088954
+We found a possible signal candidate in H1 at 2483.95703125 s with SNR 8.180262677839995
+Listing all the possible signal candidates(for BH mass= 37 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7060546875 s with SNR 28.167751782470617
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 15.517946002154101
+We found a possible signal candidate in L1 at 1638.15283203125 s with SNR 15.180043281186446
+We found a possible signal candidate in L1 at 3319.25244140625 s with SNR 14.350051038357702
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.68212890625 was a glitch
+The initial signal candidate at H1 reported at 1204.7060546875 was a glitch
+The initial signal candidate at H1 reported at 1638.15185546875 was a glitch
+The initial signal candidate at H1 reported at 2483.95703125 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.3408203125 with SNR 8.567019920562647
+There is a signal candidate in H1 at 3319.25341796875 with SNR 12.473170126867512
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.7060546875 was a glitch
+The initial signal candidate at L1 reported at 1638.15283203125 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.25244140625 with SNR 11.503700839741176
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The signals at 2995.3408203125 for H1 and at 3319.25244140625 for L1 are too far apart with a lag of 323.91162109375 s
+The time lag 0.0009765625 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/38
+Individual masses of the BBHs -- 38 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 38 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70556640625 s with SNR 26.819686515273126
+We found a possible signal candidate in H1 at 1638.15185546875 s with SNR 18.294897925571398
+We found a possible signal candidate in H1 at 3319.2529296875 s with SNR 13.106881561544272
+We found a possible signal candidate in H1 at 2995.34033203125 s with SNR 9.644597434657893
+We found a possible signal candidate in H1 at 987.6767578125 s with SNR 9.497850165491043
+We found a possible signal candidate in H1 at 2483.95654296875 s with SNR 8.172727988117364
+Listing all the possible signal candidates(for BH mass= 38 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70556640625 s with SNR 28.643546140781044
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 15.767266491885477
+We found a possible signal candidate in L1 at 1638.15234375 s with SNR 15.496987209954211
+We found a possible signal candidate in L1 at 3319.251953125 s with SNR 13.744570811068906
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6767578125 was a glitch
+The initial signal candidate at H1 reported at 1204.70556640625 was a glitch
+The initial signal candidate at H1 reported at 1638.15185546875 was a glitch
+The initial signal candidate at H1 reported at 2483.95654296875 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 2995.34033203125 with SNR 8.00706890166426
+There is a signal candidate in H1 at 3319.2529296875 with SNR 11.844896932334096
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.70556640625 was a glitch
+The initial signal candidate at L1 reported at 1638.15234375 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.251953125 with SNR 9.852631524019753
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The signals at 2995.34033203125 for H1 and at 3319.251953125 for L1 are too far apart with a lag of 323.91162109375 s
+The time lag 0.0009765625 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/39
+Individual masses of the BBHs -- 39 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 39 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.705078125 s with SNR 26.74664185539519
+We found a possible signal candidate in H1 at 1638.1513671875 s with SNR 18.254434547665166
+We found a possible signal candidate in H1 at 3319.25244140625 s with SNR 12.719801733251293
+We found a possible signal candidate in H1 at 987.67626953125 s with SNR 9.758116510898327
+We found a possible signal candidate in H1 at 2995.33984375 s with SNR 9.467454413861875
+We found a possible signal candidate in H1 at 2483.9560546875 s with SNR 8.153259844855805
+Listing all the possible signal candidates(for BH mass= 39 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.705078125 s with SNR 28.905949725619912
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 16.19133116226787
+We found a possible signal candidate in L1 at 1638.15185546875 s with SNR 15.721346827701616
+We found a possible signal candidate in L1 at 3319.251953125 s with SNR 13.138055974136291
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.67626953125 was a glitch
+The initial signal candidate at H1 reported at 1204.705078125 was a glitch
+The initial signal candidate at H1 reported at 1638.1513671875 was a glitch
+The initial signal candidate at H1 reported at 2483.9560546875 was a glitch
+The initial signal candidate at H1 reported at 2995.33984375 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 3319.25244140625 with SNR 10.78104560669693
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.705078125 was a glitch
+The initial signal candidate at L1 reported at 1638.15185546875 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.251953125 with SNR 9.663644305217723
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/40
+Individual masses of the BBHs -- 40 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 40 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.705078125 s with SNR 26.644357220053017
+We found a possible signal candidate in H1 at 1638.15087890625 s with SNR 18.135712818530504
+We found a possible signal candidate in H1 at 3319.251953125 s with SNR 12.29453578784927
+We found a possible signal candidate in H1 at 987.67578125 s with SNR 9.907575885967605
+We found a possible signal candidate in H1 at 2995.33935546875 s with SNR 9.25352683475095
+We found a possible signal candidate in H1 at 2483.95556640625 s with SNR 8.131787178358952
+Listing all the possible signal candidates(for BH mass= 40 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.705078125 s with SNR 29.08537840020109
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 16.686725898435533
+We found a possible signal candidate in L1 at 1638.1513671875 s with SNR 15.85728033864165
+We found a possible signal candidate in L1 at 3319.25146484375 s with SNR 12.575886478186991
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.67578125 was a glitch
+The initial signal candidate at H1 reported at 1204.705078125 was a glitch
+The initial signal candidate at H1 reported at 1638.15087890625 was a glitch
+The initial signal candidate at H1 reported at 2483.95556640625 was a glitch
+The initial signal candidate at H1 reported at 2995.33935546875 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 3319.251953125 with SNR 10.079719640518046
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.705078125 was a glitch
+The initial signal candidate at L1 reported at 1638.1513671875 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.25146484375 with SNR 9.345704824689264
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The time lag 0.00048828125 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/41
+Individual masses of the BBHs -- 41 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 41 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70458984375 s with SNR 26.49845756857121
+We found a possible signal candidate in H1 at 1638.15087890625 s with SNR 18.05940721307324
+We found a possible signal candidate in H1 at 3319.251953125 s with SNR 11.909387222323776
+We found a possible signal candidate in H1 at 987.67529296875 s with SNR 9.945256769915561
+We found a possible signal candidate in H1 at 2995.33935546875 s with SNR 9.077800904113838
+We found a possible signal candidate in H1 at 2483.94873046875 s with SNR 8.403347250188741
+Listing all the possible signal candidates(for BH mass= 41 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70458984375 s with SNR 29.19657939343609
+We found a possible signal candidate in L1 at 196.08154296875 s with SNR 17.1017800657653
+We found a possible signal candidate in L1 at 1638.1513671875 s with SNR 15.944021260274202
+We found a possible signal candidate in L1 at 3319.2509765625 s with SNR 12.043494619426697
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.67529296875 was a glitch
+The initial signal candidate at H1 reported at 1204.70458984375 was a glitch
+The initial signal candidate at H1 reported at 1638.15087890625 was a glitch
+The initial signal candidate at H1 reported at 2483.94873046875 was a glitch
+The initial signal candidate at H1 reported at 2995.33935546875 was a glitch
+The surviving signal candidates in H1 are:
+There is a signal candidate in H1 at 3319.251953125 with SNR 9.84251881472445
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08154296875 was a glitch
+The initial signal candidate at L1 reported at 1204.70458984375 was a glitch
+The initial signal candidate at L1 reported at 1638.1513671875 was a glitch
+The surviving signal candidates in L1 are:
+There is a signal candidate in L1 at 3319.2509765625 with SNR 8.694741786710784
+Checking if the surviving signal candidates fit the criteria for a BBH merger for our chosen template:
+The time lag 0.0009765625 s between the signals at H1 & L1 is too short compared to GW travel time and hence
+an artefact of other noise sources or some artificial source
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/42
+Individual masses of the BBHs -- 42 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 42 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7041015625 s with SNR 26.27043878636612
+We found a possible signal candidate in H1 at 1638.150390625 s with SNR 17.96271388017778
+We found a possible signal candidate in H1 at 3319.25146484375 s with SNR 11.610041191842916
+We found a possible signal candidate in H1 at 987.6650390625 s with SNR 10.149744127518534
+We found a possible signal candidate in H1 at 2995.3388671875 s with SNR 8.893110181702706
+We found a possible signal candidate in H1 at 2483.9482421875 s with SNR 8.740411466970423
+Listing all the possible signal candidates(for BH mass= 42 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7041015625 s with SNR 29.173146501513376
+We found a possible signal candidate in L1 at 196.0810546875 s with SNR 17.443376432942635
+We found a possible signal candidate in L1 at 1638.15087890625 s with SNR 15.9609164448976
+We found a possible signal candidate in L1 at 3319.2509765625 s with SNR 11.593974849997837
+There were no signal candidates at Livingston for template using m1=m2= 42 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.25146484375 has a SNR of 9.352233274790231
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6650390625 was a glitch
+The initial signal candidate at H1 reported at 1204.7041015625 was a glitch
+The initial signal candidate at H1 reported at 1638.150390625 was a glitch
+The initial signal candidate at H1 reported at 2483.9482421875 was a glitch
+The initial signal candidate at H1 reported at 2995.3388671875 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.0810546875 was a glitch
+The initial signal candidate at L1 reported at 1204.7041015625 was a glitch
+The initial signal candidate at L1 reported at 1638.15087890625 was a glitch
+The initial signal candidate at L1 reported at 3319.2509765625 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/43
+Individual masses of the BBHs -- 43 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 43 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7041015625 s with SNR 26.133933738494484
+We found a possible signal candidate in H1 at 1638.14990234375 s with SNR 17.838658953046835
+We found a possible signal candidate in H1 at 3319.25146484375 s with SNR 11.351404449321048
+We found a possible signal candidate in H1 at 987.6650390625 s with SNR 10.544424196602678
+We found a possible signal candidate in H1 at 2483.94775390625 s with SNR 9.064274800704977
+We found a possible signal candidate in H1 at 2995.33837890625 s with SNR 8.687566264369396
+Listing all the possible signal candidates(for BH mass= 43 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7041015625 s with SNR 29.103191478891354
+We found a possible signal candidate in L1 at 196.08056640625 s with SNR 17.641658786016453
+We found a possible signal candidate in L1 at 1638.150390625 s with SNR 15.930777300245076
+We found a possible signal candidate in L1 at 3319.25048828125 s with SNR 11.24221670177965
+There were no signal candidates at Livingston for template using m1=m2= 43 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.25146484375 has a SNR of 8.956462033813528
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6650390625 was a glitch
+The initial signal candidate at H1 reported at 1204.7041015625 was a glitch
+The initial signal candidate at H1 reported at 1638.14990234375 was a glitch
+The initial signal candidate at H1 reported at 2483.94775390625 was a glitch
+The initial signal candidate at H1 reported at 2995.33837890625 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08056640625 was a glitch
+The initial signal candidate at L1 reported at 1204.7041015625 was a glitch
+The initial signal candidate at L1 reported at 1638.150390625 was a glitch
+The initial signal candidate at L1 reported at 3319.25048828125 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/44
+Individual masses of the BBHs -- 44 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 44 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70361328125 s with SNR 25.917068797811584
+We found a possible signal candidate in H1 at 1638.14990234375 s with SNR 17.743943189227075
+We found a possible signal candidate in H1 at 3319.2509765625 s with SNR 11.172637110898982
+We found a possible signal candidate in H1 at 987.66455078125 s with SNR 10.873813892823788
+We found a possible signal candidate in H1 at 2483.947265625 s with SNR 9.35512735912534
+We found a possible signal candidate in H1 at 2995.33837890625 s with SNR 8.532056356967203
+Listing all the possible signal candidates(for BH mass= 44 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70361328125 s with SNR 29.10331403746744
+We found a possible signal candidate in L1 at 196.08056640625 s with SNR 17.754122125380807
+We found a possible signal candidate in L1 at 1638.14990234375 s with SNR 15.877670185209462
+We found a possible signal candidate in L1 at 3319.25048828125 s with SNR 10.910562408284324
+There were no signal candidates at Livingston for template using m1=m2= 44 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.2509765625 has a SNR of 8.941663856633882
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.66455078125 was a glitch
+The initial signal candidate at H1 reported at 1204.70361328125 was a glitch
+The initial signal candidate at H1 reported at 1638.14990234375 was a glitch
+The initial signal candidate at H1 reported at 2483.947265625 was a glitch
+The initial signal candidate at H1 reported at 2995.33837890625 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.08056640625 was a glitch
+The initial signal candidate at L1 reported at 1204.70361328125 was a glitch
+The initial signal candidate at L1 reported at 1638.14990234375 was a glitch
+The initial signal candidate at L1 reported at 3319.25048828125 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/45
+Individual masses of the BBHs -- 45 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 45 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70361328125 s with SNR 25.680670270117687
+We found a possible signal candidate in H1 at 1638.1494140625 s with SNR 17.63858677938213
+We found a possible signal candidate in H1 at 987.6640625 s with SNR 11.132291117135487
+We found a possible signal candidate in H1 at 3319.2509765625 s with SNR 11.013495682811541
+We found a possible signal candidate in H1 at 2483.94677734375 s with SNR 9.602704258609535
+We found a possible signal candidate in H1 at 2995.337890625 s with SNR 8.359032970325542
+Listing all the possible signal candidates(for BH mass= 45 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.703125 s with SNR 29.046822738985558
+We found a possible signal candidate in L1 at 196.080078125 s with SNR 17.768061655257206
+We found a possible signal candidate in L1 at 1638.1494140625 s with SNR 15.818301429164563
+We found a possible signal candidate in L1 at 3319.25 s with SNR 10.655910189484842
+There were no signal candidates at Livingston for template using m1=m2= 45 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.2509765625 has a SNR of 8.79321857551055
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6640625 was a glitch
+The initial signal candidate at H1 reported at 1204.70361328125 was a glitch
+The initial signal candidate at H1 reported at 1638.1494140625 was a glitch
+The initial signal candidate at H1 reported at 2483.94677734375 was a glitch
+The initial signal candidate at H1 reported at 2995.337890625 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.080078125 was a glitch
+The initial signal candidate at L1 reported at 1204.703125 was a glitch
+The initial signal candidate at L1 reported at 1638.1494140625 was a glitch
+The initial signal candidate at L1 reported at 3319.25 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/46
+Individual masses of the BBHs -- 46 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 46 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.703125 s with SNR 25.478652514001265
+We found a possible signal candidate in H1 at 1638.14892578125 s with SNR 17.518562305465313
+We found a possible signal candidate in H1 at 987.66357421875 s with SNR 11.330855640342824
+We found a possible signal candidate in H1 at 3319.25048828125 s with SNR 10.880112552152154
+We found a possible signal candidate in H1 at 2483.9462890625 s with SNR 9.805138704303962
+We found a possible signal candidate in H1 at 2995.337890625 s with SNR 8.22665883655531
+Listing all the possible signal candidates(for BH mass= 46 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.703125 s with SNR 28.96050559253722
+We found a possible signal candidate in L1 at 196.080078125 s with SNR 17.66978666620904
+We found a possible signal candidate in L1 at 1638.14892578125 s with SNR 15.76191790852162
+We found a possible signal candidate in L1 at 3319.25 s with SNR 10.384183067416638
+There were no signal candidates at Livingston for template using m1=m2= 46 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.25048828125 has a SNR of 8.789758346615914
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.66357421875 was a glitch
+The initial signal candidate at H1 reported at 1204.703125 was a glitch
+The initial signal candidate at H1 reported at 1638.14892578125 was a glitch
+The initial signal candidate at H1 reported at 2483.9462890625 was a glitch
+The initial signal candidate at H1 reported at 2995.337890625 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.080078125 was a glitch
+The initial signal candidate at L1 reported at 1204.703125 was a glitch
+The initial signal candidate at L1 reported at 1638.14892578125 was a glitch
+The initial signal candidate at L1 reported at 3319.25 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/47
+Individual masses of the BBHs -- 47 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 47 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70263671875 s with SNR 25.229456154658187
+We found a possible signal candidate in H1 at 1638.1484375 s with SNR 17.39548067252718
+We found a possible signal candidate in H1 at 987.66357421875 s with SNR 11.488412029643115
+We found a possible signal candidate in H1 at 3319.25048828125 s with SNR 10.738657218038567
+We found a possible signal candidate in H1 at 2483.94580078125 s with SNR 9.965677449993745
+We found a possible signal candidate in H1 at 2995.33740234375 s with SNR 8.100303018813706
+Listing all the possible signal candidates(for BH mass= 47 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70263671875 s with SNR 28.977833918832786
+We found a possible signal candidate in L1 at 196.07958984375 s with SNR 17.544941705488068
+We found a possible signal candidate in L1 at 1638.1484375 s with SNR 15.712378611796336
+We found a possible signal candidate in L1 at 3319.24951171875 s with SNR 10.168621941980076
+There were no signal candidates at Livingston for template using m1=m2= 47 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.25048828125 has a SNR of 8.38910949410332
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.66357421875 was a glitch
+The initial signal candidate at H1 reported at 1204.70263671875 was a glitch
+The initial signal candidate at H1 reported at 1638.1484375 was a glitch
+The initial signal candidate at H1 reported at 2483.94580078125 was a glitch
+The initial signal candidate at H1 reported at 2995.33740234375 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.07958984375 was a glitch
+The initial signal candidate at L1 reported at 1204.70263671875 was a glitch
+The initial signal candidate at L1 reported at 1638.1484375 was a glitch
+The initial signal candidate at L1 reported at 3319.24951171875 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/48
+Individual masses of the BBHs -- 48 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 48 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.70263671875 s with SNR 25.032493124957508
+We found a possible signal candidate in H1 at 1638.14794921875 s with SNR 17.278232495617527
+We found a possible signal candidate in H1 at 987.6630859375 s with SNR 11.63027202157164
+We found a possible signal candidate in H1 at 3319.25 s with SNR 10.613026698041546
+We found a possible signal candidate in H1 at 2483.9453125 s with SNR 10.088722355318755
+We found a possible signal candidate in H1 at 2995.33740234375 s with SNR 8.03131193092106
+Listing all the possible signal candidates(for BH mass= 48 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.7021484375 s with SNR 28.952210781479486
+We found a possible signal candidate in L1 at 196.0791015625 s with SNR 17.329376644671562
+We found a possible signal candidate in L1 at 1638.1484375 s with SNR 15.687558858844731
+We found a possible signal candidate in L1 at 3319.24951171875 s with SNR 9.94671819199213
+There were no signal candidates at Livingston for template using m1=m2= 48 solar masses
+There are no surviving signal candidates in L1 whereas for H1 we have 1 candidates:
+The signal candidate in H1 at 3319.25 has a SNR of 8.188794026824397
+The following signal candidates in H1 were ruled out as glitches:
+The initial signal candidate at H1 reported at 987.6630859375 was a glitch
+The initial signal candidate at H1 reported at 1204.70263671875 was a glitch
+The initial signal candidate at H1 reported at 1638.14794921875 was a glitch
+The initial signal candidate at H1 reported at 2483.9453125 was a glitch
+The initial signal candidate at H1 reported at 2995.33740234375 was a glitch
+The following signal candidates in L1 were ruled out as glitches:
+The initial signal candidate at L1 reported at 196.0791015625 was a glitch
+The initial signal candidate at L1 reported at 1204.7021484375 was a glitch
+The initial signal candidate at L1 reported at 1638.1484375 was a glitch
+The initial signal candidate at L1 reported at 3319.24951171875 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/49
+Individual masses of the BBHs -- 49 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 49 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7021484375 s with SNR 24.822279116343257
+We found a possible signal candidate in H1 at 1638.14794921875 s with SNR 17.18710457091733
+We found a possible signal candidate in H1 at 987.66259765625 s with SNR 11.750650437900262
+We found a possible signal candidate in H1 at 3319.25 s with SNR 10.476889630013105
+We found a possible signal candidate in H1 at 2483.94482421875 s with SNR 10.178272873357754
+Listing all the possible signal candidates(for BH mass= 49 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70166015625 s with SNR 28.892036171827737
+We found a possible signal candidate in L1 at 196.0791015625 s with SNR 17.11598917377975
+We found a possible signal candidate in L1 at 1638.14794921875 s with SNR 15.67735486374525
+We found a possible signal candidate in L1 at 3319.2490234375 s with SNR 9.764599910216711
+There were no signal candidates at Hanford for template using m1=m2= 49 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 49 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 987.66259765625 was a glitch
+The initial signal candidate at H1 reported at 1204.7021484375 was a glitch
+The initial signal candidate at H1 reported at 1638.14794921875 was a glitch
+The initial signal candidate at H1 reported at 2483.94482421875 was a glitch
+The initial signal candidate at H1 reported at 3319.25 was a glitch
+The initial signal candidate at L1 reported at 196.0791015625 was a glitch
+The initial signal candidate at L1 reported at 1204.70166015625 was a glitch
+The initial signal candidate at L1 reported at 1638.14794921875 was a glitch
+The initial signal candidate at L1 reported at 3319.2490234375 was a glitch
+#######################################################################################
+#######################################################################################
+/home/jotil/Tron/odw4/odw-2021/Challenge/50
+Individual masses of the BBHs -- 50 solar masses
+#######################################################################################
+#######################################################################################
+Listing all the possible signal candidates(for BH mass= 50 solar mass) at Hanford in order of decreasing SNR
+We found a possible signal candidate in H1 at 1204.7021484375 s with SNR 24.591990328422487
+We found a possible signal candidate in H1 at 1638.1474609375 s with SNR 17.107165462461463
+We found a possible signal candidate in H1 at 987.66259765625 s with SNR 11.864823101772336
+We found a possible signal candidate in H1 at 3319.24951171875 s with SNR 10.368618782339613
+We found a possible signal candidate in H1 at 2483.9443359375 s with SNR 10.23685671148531
+Listing all the possible signal candidates(for BH mass= 50 solar mass) at Livingston in order of decreasing SNR
+We found a possible signal candidate in L1 at 1204.70166015625 s with SNR 28.858343142863053
+We found a possible signal candidate in L1 at 196.0791015625 s with SNR 16.871035873768903
+We found a possible signal candidate in L1 at 1638.1474609375 s with SNR 15.664284897730374
+We found a possible signal candidate in L1 at 3319.2490234375 s with SNR 9.613108764055713
+There were no signal candidates at Hanford for template using m1=m2= 50 solar masses
+There were no signal candidates at Livingston for template using m1=m2= 50 solar masses
+There are no remaining signal candidates in both H1 and L1
+The initial signal candidate at H1 reported at 987.66259765625 was a glitch
+The initial signal candidate at H1 reported at 1204.7021484375 was a glitch
+The initial signal candidate at H1 reported at 1638.1474609375 was a glitch
+The initial signal candidate at H1 reported at 2483.9443359375 was a glitch
+The initial signal candidate at H1 reported at 3319.24951171875 was a glitch
+The initial signal candidate at L1 reported at 196.0791015625 was a glitch
+The initial signal candidate at L1 reported at 1204.70166015625 was a glitch
+The initial signal candidate at L1 reported at 1638.1474609375 was a glitch
+The initial signal candidate at L1 reported at 3319.2490234375 was a glitch
